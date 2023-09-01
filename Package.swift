@@ -36,9 +36,9 @@ let package = Package(
             exclude: ["OpenAPI/app_store_connect_api_2.3_openapi.json"]
         ),
         .binaryTarget(
-            name: "create-api", // Find the URL and checksum at https://github.com/createapi/createapi/releases/latest
-            url: "https://github.com/CreateAPI/CreateAPI/releases/download/0.0.5/create-api.artifactbundle.zip",
-            checksum: "89c75ec3b2938d08b961b94e70e6dd6fa0ff52a90037304d41718cd5fb58bd24" // Find at https://github.com/createapi/createapi/releases/latest
+            name: "create-api",
+            url: "https://github.com/CreateAPI/CreateAPI/releases/download/0.2.0/create-api.artifactbundle.zip",
+            checksum: "6f8a3ce099f07eb2655ccaf6f66d8c9a09b74bb2307781c4adec36609ddac009"
         ),
         .plugin(
             name: "CreateAPI",
